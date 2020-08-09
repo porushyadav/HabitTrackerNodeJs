@@ -24,12 +24,7 @@ This data is directly acquired from package.json.
 * Routes: Contains all routes.<br/>
 * views: Contains all views.<br/>
 
-# Home Page 
-![](asserts/images/habit_home.JPG)
-# Activity Details
-* ![](asserts/images/habit_details.JPG)
 
-asserts/images/habit_home.JPG
 # Starting the Project:
 
 * Download as zip and extract in your local system.
@@ -37,4 +32,11 @@ asserts/images/habit_home.JPG
 * Open terminal and make the project folder as your current directory
 * Install all the libraries mentioned above.
 * To start the server, use command: npm start
-* Go to https://localhost/8000 on your browser to use the application
+* Go to https://localhost/8000 on your browser to use the application.
+
+# Home Page 
+![](asserts/images/habit_home.JPG)
+# Activity Details
+* ![](asserts/images/habit_details.JPG)
+
+asserts/images/habit_home.JPG
