@@ -24,6 +24,12 @@ This data is directly acquired from package.json.
 * Routes: Contains all routes.<br/>
 * views: Contains all views.<br/>
 
+# Home Page 
+![](asserts/images/habit_home.JPG)
+# Activity Details
+* ![](asserts/images/habit_details.JPG)
+
+asserts/images/habit_home.JPG
 # Starting the Project:
 
 * Download as zip and extract in your local system.
