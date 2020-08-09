@@ -39,4 +39,3 @@ This data is directly acquired from package.json.
 # Activity Details
 * ![](asserts/images/habit_details.JPG)
 
-asserts/images/habit_home.JPG
