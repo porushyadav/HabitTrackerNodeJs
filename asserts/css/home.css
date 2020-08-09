@@ -8,17 +8,42 @@ hr{
 }
 form
 {
-     width:80%;
+     width:70%;
+     min-width: 27rem;
      margin: auto;
 }
 .display
 {
      display: flex;
      width:80%;
+     min-width: 27rem;
      flex-wrap: wrap;
      justify-content: space-around;
      margin: auto;
-     margin-top: 50px;
+    
+
+}
+input[type='checkbox']
+{
+height:20px;
+width: 20px;
+}
+.description
+{
+    margin-bottom: 0px;
+}
+.habit
+{
+    border-left: 1px solid grey;
+    border-right: 5px solid grey;
+    width: 80%;
+    min-width: 300px;
+    height:auto;
+    overflow-y: scroll;
+    background-color: rgb(245, 250, 249);
+}
+.habit::-webkit-scrollbar {
+    display: none;
 }
 .center
 {
@@ -29,10 +54,11 @@ form
 
 #addTask
 {
-    width: 20%;
-    min-width:200px;
-    padding: 10px;
-    margin-top: 10px;
+    width: 10%;
+    min-width:150px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
     display: flex;
     justify-content: space-around;
 
@@ -57,6 +83,7 @@ form
 {
     display: inline-block;
     width:45%;
+    margin: 0px;
 }
 .task-info-delete
 {
@@ -78,8 +105,10 @@ a{
 
 #multiple-delete
 {
-    display: flex;
-    justify-content: flex-end;
+   display: fixed;
+    left:0;
+    top:300;
+    margin-bottom: 10px;
     
 }
 .toggle
@@ -88,7 +117,11 @@ a{
 
 }
 
-
+#validationDefault05
+{
+    min-width: 150px;
+    margin-right: 100px;
+}
 .task-info-checked input:checked+label
 {
     text-decoration: line-through;

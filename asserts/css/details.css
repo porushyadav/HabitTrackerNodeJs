@@ -1,0 +1,74 @@
+
+
+/* ---- display details of habit --- */
+.top{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}
+.namee{
+    width: 80%;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    align-self: flex-end;
+    color: #14612c;
+    width:80%;
+    padding: 5px 5px 5px 5px;
+}
+.timee{
+    width: 20%;
+    font-size: 30px;
+    font-family: fantasy;
+    color: #56694b;
+    width: 20%;
+    padding: 5px 5px 5px 5px;
+}
+hr{
+    width: 400px;
+    padding: 0.5px 5px 0.5px 5px;
+    color: grey;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50rem;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .h
+  {
+      
+  }
+ 
+  .size
+  {
+      width: 50rem;
+      height: 2rem;
+      margin: auto;
+      border:1px solid black;
+     display: block;
+  }
+  
+  #filter
+  {
+      margin: auto;
+      width:40%;
+  }
+  #filter button{
+
+   margin-left: 5px;
+ 
+  }
+
+  #filter button:hover{
+    background-color: rgba(39, 39, 238, 0.747);
+    
+}

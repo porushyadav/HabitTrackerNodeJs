@@ -20,7 +20,6 @@ module.exports.delete=function(req,res)
 //used to delete multiple item
 module.exports.multipleDelete=function(req,res)
 {
-  console.log(req.query);
   
   //used when no item is selected
   if(Object.keys(req.query).length==0)

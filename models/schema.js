@@ -5,23 +5,15 @@ const Schema= new mongoose.Schema({
        type:String,
        require:true
    },
-   category:{
-       type:String,
-       require:true
-   },
-   duedate:{
+   time:{
        type:String,
        required:true
    },
-   check:{
-       type:Boolean,
-       required:true
-
-   }
-
+   days:{}
+ 
 
 
 });
 
-const TodoList=mongoose.model('TodoList',Schema);
-module.exports=TodoList;
+const HabitTracker=mongoose.model('HabitTracker',Schema);
+module.exports=HabitTracker;

@@ -2,3 +2,14 @@ body{
     margin:20px;
     color:black;
 }
+.heading
+{
+    text-align: center;
+    color: black;
+}
+.footer
+{
+    position: fixed;
+    bottom:0;
+    right:0;
+}
